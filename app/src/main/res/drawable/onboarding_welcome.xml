@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.2"
+        android:pathData="M100,100m-80,0a80,80 0,1,1 160,0a80,80 0,1,1 -160,0" />
+
+    <!-- Phone/Device Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,50 L120,50 Q125,50 125,55 L125,145 Q125,150 120,150 L80,150 Q75,150 75,145 L75,55 Q75,50 80,50 Z" />
+
+    <!-- Screen -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M82,60 L118,60 L118,135 L82,135 Z" />
+
+    <!-- Home Button -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M95,140 L105,140 Q107,140 107,142 L107,143 Q107,145 105,145 L95,145 Q93,145 93,143 L93,142 Q93,140 95,140 Z" />
+
+    <!-- Search Icon on Screen -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M95,75 m-8,0 a8,8 0,1,1 16,0 a8,8 0,1,1 -16,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M101,81 L107,87" />
+
+    <!-- Sparkle 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,70 L57,75 L62,77 L57,79 L55,84 L53,79 L48,77 L53,75 Z" />
+
+    <!-- Sparkle 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M140,95 L142,100 L147,102 L142,104 L140,109 L138,104 L133,102 L138,100 Z" />
+
+    <!-- Sparkle 3 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M145,140 L146,143 L149,144 L146,145 L145,148 L144,145 L141,144 L144,143 Z" />
+
+    <!-- Wave/Welcome Hand -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M130,35 Q135,30 140,35 L145,40 Q147,42 145,44 L140,49 Q138,51 136,49 L131,44 Q129,42 131,40 Z" />
+</vector>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.2"
+        android:pathData="M100,100m-80,0a80,80 0,1,1 160,0a80,80 0,1,1 -160,0" />
+
+    <!-- Camera Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,70 L140,70 Q145,70 145,75 L145,135 Q145,140 140,140 L60,140 Q55,140 55,135 L55,75 Q55,70 60,70 Z" />
+
+    <!-- Camera Top -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M85,65 L115,65 L120,70 L80,70 Z" />
+
+    <!-- Lens -->
+    <path
+        android:fillColor="#4ECDC4"
+        android:pathData="M100,95 m-20,0 a20,20 0,1,1 40,0 a20,20 0,1,1 -40,0" />
+
+    <!-- Lens Inner -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M100,95 m-12,0 a12,12 0,1,1 24,0 a12,12 0,1,1 -24,0" />
+
+    <!-- Flash -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M130,85 L135,80 L133,87 L138,87 L130,97 L132,90 L127,90 Z" />
+
+    <!-- Detection Box 1 (Keys) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+       
+        android:pathData="M40,115 L65,115 L65,135 L40,135 Z" />
+
+    <!-- Corner Brackets Box 1 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M40,115 L40,120 M40,115 L45,115" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M65,115 L65,120 M65,115 L60,115" />
+
+    <!-- Detection Box 2 (Phone) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+       
+        android:pathData="M150,80 L175,80 L175,110 L150,110 Z" />
+
+    <!-- Corner Brackets Box 2 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M150,80 L150,85 M150,80 L155,80" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M175,80 L175,85 M175,80 L170,80" />
+
+    <!-- AI Scan Lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.6"
+        android:pathData="M30,50 L170,50" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.4"
+        android:pathData="M30,100 L170,100" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.6"
+        android:pathData="M30,150 L170,150" />
+
+    <!-- AI Brain/Network Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M165,45 m-4,0 a4,4 0,1,1 8,0 a4,4 0,1,1 -8,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M175,40 m-3,0 a3,3 0,1,1 6,0 a3,3 0,1,1 -6,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M175,50 m-3,0 a3,3 0,1,1 6,0 a3,3 0,1,1 -6,0" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M165,45 L172,40 M165,45 L172,50" />
+
+    <!-- Checkmark 1 (Detected) -->
+    <path
+        android:strokeColor="#4ECDC4"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M68,125 L71,128 L76,120" />
+
+    <!-- Checkmark 2 (Detected) -->
+    <path
+        android:strokeColor="#4ECDC4"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M152,95 L155,98 L160,90" />
+
+    <!-- Detection Labels Background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,108 L62,108 L62,113 L40,113 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M150,73 L172,73 L172,78 L150,78 Z" />
+
+    <!-- Scanning Effect -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M30,75 L170,75 L170,77 L30,77 Z" />
+</vector>

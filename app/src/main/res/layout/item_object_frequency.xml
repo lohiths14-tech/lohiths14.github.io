@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_frequency"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardElevation="1dp"
+    app:cardCornerRadius="12dp"
+    app:strokeWidth="2dp"
+    app:strokeColor="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical">
+
+        <!-- Rank Badge -->
+        <TextView
+            android:id="@+id/tv_rank"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="#1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorPrimary"
+            android:background="@drawable/bg_rank_badge"
+            tools:text="#1" />
+
+        <!-- Object Info -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:id="@+id/tv_object_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Object Name"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnSurface"
+                tools:text="Phone" />
+
+            <TextView
+                android:id="@+id/tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 detections"
+                android:textSize="14sp"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                tools:text="42 detections" />
+        </LinearLayout>
+
+        <!-- Progress Indicator (optional) -->
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/progress_frequency"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:indeterminate="false"
+            app:indicatorSize="32dp"
+            app:trackThickness="3dp"
+            android:visibility="gone"
+            tools:progress="75" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

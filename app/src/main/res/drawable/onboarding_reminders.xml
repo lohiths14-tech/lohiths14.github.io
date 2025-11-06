@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.2"
+        android:pathData="M100,100m-80,0a80,80 0,1,1 160,0a80,80 0,1,1 -160,0" />
+
+    <!-- Large Bell Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,60 Q95,60 92,63 L92,58 Q92,55 95,55 L105,55 Q108,55 108,58 L108,63 Q105,60 100,60 Z" />
+
+    <!-- Bell Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,65 Q85,65 80,75 Q75,85 75,100 L75,110 L70,115 Q68,117 68,120 L132,120 Q132,117 130,115 L125,110 L125,100 Q125,85 120,75 Q115,65 100,65 Z" />
+
+    <!-- Bell Bottom -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M95,122 Q95,127 100,127 Q105,127 105,122 L95,122 Z" />
+
+    <!-- Bell Clapper -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M100,115 m-3,0 a3,3 0,1,1 6,0 a3,3 0,1,1 -6,0" />
+
+    <!-- Notification Badge -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M120,65 m-8,0 a8,8 0,1,1 16,0 a8,8 0,1,1 -16,0" />
+
+    <!-- Badge Number -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M116,63 L118,63 L118,69 L116,69 Z M119,63 L121,63 Q122,63 122,64 L122,68 Q122,69 121,69 L119,69 L119,63 Z" />
+
+    <!-- Clock Icon (Left) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,95 m-15,0 a15,15 0,1,1 30,0 a15,15 0,1,1 -30,0" />
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M45,95 m-12,0 a12,12 0,1,1 24,0 a12,12 0,1,1 -24,0" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M45,95 L45,88 M45,95 L49,95" />
+
+    <!-- Calendar Icon (Right) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M140,90 L170,90 L170,120 L140,120 Z" />
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M140,90 L170,90 L170,100 L140,100 Z" />
+
+    <!-- Calendar Rings -->
+    <path
+        android:strokeColor="#FFA726"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M147,90 L147,87 M163,90 L163,87" />
+
+    <!-- Calendar Date -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M145,105 L150,105 L150,115 L145,115 Z" />
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M153,105 L165,105 L165,108 L153,108 Z M153,110 L162,110 L162,113 L153,113 Z" />
+
+    <!-- Reminder Cards Bottom -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M50,140 L95,140 Q97,140 97,142 L97,163 Q97,165 95,165 L50,165 Q48,165 48,163 L48,142 Q48,140 50,140 Z" />
+
+    <!-- Card 1 Icon (Keys) -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M58,148 m-4,0 a4,4 0,1,1 8,0 a4,4 0,1,1 -8,0" />
+    <path
+        android:strokeColor="#FFA726"
+        android:strokeWidth="2"
+        android:pathData="M62,148 L70,148 M68,146 L68,150" />
+
+    <!-- Card 1 Text -->
+    <path
+        android:fillColor="#FFA726"
+        android:fillAlpha="0.7"
+        android:pathData="M75,147 L90,147 L90,149 L75,149 Z M75,151 L87,151 L87,153 L75,153 Z" />
+
+    <!-- Card 1 Time -->
+    <path
+        android:fillColor="#FFA726"
+        android:fillAlpha="0.5"
+        android:pathData="M52,157 L70,157 L70,159 L52,159 Z" />
+
+    <!-- Reminder Card 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M105,140 L150,140 Q152,140 152,142 L152,163 Q152,165 150,165 L105,165 Q103,165 103,163 L103,142 Q103,140 105,140 Z" />
+
+    <!-- Card 2 Icon (Phone) -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M110,145 L120,145 L120,160 L110,160 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M112,147 L118,147 L118,155 L112,155 Z" />
+
+    <!-- Card 2 Text -->
+    <path
+        android:fillColor="#FFA726"
+        android:fillAlpha="0.7"
+        android:pathData="M125,147 L145,147 L145,149 L125,149 Z M125,151 L142,151 L142,153 L125,153 Z" />
+
+    <!-- Card 2 Time -->
+    <path
+        android:fillColor="#FFA726"
+        android:fillAlpha="0.5"
+        android:pathData="M107,157 L130,157 L130,159 L107,159 Z" />
+
+    <!-- Sound Waves (Left of Bell) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.6"
+       
+        android:pathData="M65,85 Q60,90 60,95 Q60,100 65,105" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.4"
+       
+        android:pathData="M60,80 Q53,90 53,95 Q53,100 60,110" />
+
+    <!-- Sound Waves (Right of Bell) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.6"
+       
+        android:pathData="M135,85 Q140,90 140,95 Q140,100 135,105" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.4"
+       
+        android:pathData="M140,80 Q147,90 147,95 Q147,100 140,110" />
+
+    <!-- Sparkle 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,65 L36,68 L39,69 L36,70 L35,73 L34,70 L31,69 L34,68 Z" />
+
+    <!-- Sparkle 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M165,75 L166,78 L169,79 L166,80 L165,83 L164,80 L161,79 L164,78 Z" />
+
+    <!-- Checkmark (Reminder Set) -->
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M48,142 L50,144 L54,139" />
+
+    <!-- Checkmark 2 -->
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M103,142 L105,144 L109,139" />
+</vector>

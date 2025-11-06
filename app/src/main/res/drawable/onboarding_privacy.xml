@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.2"
+        android:pathData="M100,100m-80,0a80,80 0,1,1 160,0a80,80 0,1,1 -160,0" />
+
+    <!-- Large Shield (Center) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,50 L75,60 Q72,62 72,65 L72,95 Q72,110 85,120 L95,127 Q98,129 100,129 Q102,129 105,127 L115,120 Q128,110 128,95 L128,65 Q128,62 125,60 L100,50 Z" />
+
+    <!-- Shield Inner (Green) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,55 L78,63 Q76,64 76,67 L76,95 Q76,107 87,116 L96,122 Q99,124 100,124 Q101,124 104,122 L113,116 Q124,107 124,95 L124,67 Q124,64 122,63 L100,55 Z" />
+
+    <!-- Check Mark on Shield -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M88,90 L95,97 L112,77" />
+
+    <!-- Lock Icon (Bottom Left) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,130 L70,130 L70,150 L50,150 Z" />
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M53,133 L67,133 L67,147 L53,147 Z" />
+
+    <!-- Lock Shackle -->
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="2.5"
+       
+        android:pathData="M56,133 L56,127 Q56,123 60,123 Q64,123 64,127 L64,133" />
+
+    <!-- Lock Keyhole -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,138 m-2,0 a2,2 0,1,1 4,0 a2,2 0,1,1 -4,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59,140 L61,140 L61,143 L59,143 Z" />
+
+    <!-- Phone/Device Icon (Bottom Right) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M130,130 L150,130 Q152,130 152,132 L152,148 Q152,150 150,150 L130,150 Q128,150 128,148 L128,132 Q128,130 130,130 Z" />
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M131,134 L149,134 L149,145 L131,145 Z" />
+
+    <!-- Checkmark on Phone -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M135,139 L138,142 L145,136" />
+
+    <!-- Cloud with X (No Cloud - Top Left) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.8"
+        android:pathData="M40,50 Q35,50 35,55 Q35,57 36,58 Q33,59 33,62 Q33,66 37,66 L53,66 Q57,66 57,62 Q57,59 54,58 Q55,57 55,55 Q55,50 50,50 Q48,50 47,51 Q45,49 42,49 Q40,49 40,50 Z" />
+
+    <!-- X over Cloud -->
+    <path
+        android:strokeColor="#FF5252"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M38,52 L52,64 M52,52 L38,64" />
+
+    <!-- WiFi OFF Icon (Top Right) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeAlpha="0.3"
+       
+        android:pathData="M145,55 Q150,57 155,55" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeAlpha="0.5"
+       
+        android:pathData="M142,58 Q150,62 158,58" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeAlpha="0.7"
+       
+        android:pathData="M139,61 Q150,67 161,61" />
+
+    <!-- Offline Dot -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M150,67 m-2,0 a2,2 0,1,1 4,0 a2,2 0,1,1 -4,0" />
+
+    <!-- Eye with Slash (Privacy - Left Side) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+       
+        android:pathData="M25,95 Q30,85 40,85 Q50,85 55,95 Q50,105 40,105 Q30,105 25,95 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,95 m-3,0 a3,3 0,1,1 6,0 a3,3 0,1,1 -6,0" />
+    <path
+        android:strokeColor="#FF5252"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M28,107 L52,83" />
+
+    <!-- Local Storage Icon (Right Side) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M155,90 L175,90 L175,110 L155,110 Z" />
+    <path
+        android:fillColor="#4CAF50"
+        android:fillAlpha="0.3"
+        android:pathData="M158,93 L172,93 L172,96 L158,96 Z" />
+    <path
+        android:fillColor="#4CAF50"
+        android:fillAlpha="0.5"
+        android:pathData="M158,98 L172,98 L172,101 L158,101 Z" />
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M158,103 L172,103 L172,106 L158,106 Z" />
+
+    <!-- Fingerprint Icon (Bottom Center) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.7"
+       
+        android:pathData="M100,140 Q95,140 92,143 M100,145 Q97,145 95,147 M100,150 Q98,150 97,151" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.7"
+       
+        android:pathData="M100,140 Q105,140 108,143 M100,145 Q103,145 105,147 M100,150 Q102,150 103,151" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.7"
+       
+        android:pathData="M100,135 m-5,0 a5,5 0,0,1 10,0" />
+
+    <!-- Sparkle 1 (Secure) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,45 L71,48 L74,49 L71,50 L70,53 L69,50 L66,49 L69,48 Z" />
+
+    <!-- Sparkle 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M130,45 L131,48 L134,49 L131,50 L130,53 L129,50 L126,49 L129,48 Z" />
+
+    <!-- Sparkle 3 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,110 L61,113 L64,114 L61,115 L60,118 L59,115 L56,114 L59,113 Z" />
+
+    <!-- Security Badge Labels -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M75,155 L105,155 Q107,155 107,157 L107,163 Q107,165 105,165 L75,165 Q73,165 73,163 L73,157 Q73,155 75,155 Z" />
+
+    <!-- "OFFLINE" text representation -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M77,158 L80,158 L80,162 L77,162 Z M82,158 L85,158 L85,162 L82,162 Z M87,158 L90,158 L90,162 L87,162 Z" />
+
+    <!-- Padlock indicator (Small) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M95,158 L98,158 L98,162 L95,162 Z" />
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="1"
+       
+        android:pathData="M96,158 L96,157 Q96,156 96.5,156 Q97,156 97,157 L97,158" />
+
+    <!-- GDPR Compliant Indicator -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,158 m-2,0 a2,2 0,1,1 4,0 a2,2 0,1,1 -4,0" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M99,160 L100.5,161.5 L103,159" />
+
+</vector>

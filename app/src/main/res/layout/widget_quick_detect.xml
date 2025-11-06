@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SmartFind"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:alpha="0.7"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Total Detections -->
+    <TextView
+        android:id="@+id/tv_total_detections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light" />
+
+    <!-- Today's Detections -->
+    <TextView
+        android:id="@+id/tv_today_detections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+0 today"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:alpha="0.7"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Last Object -->
+    <TextView
+        android:id="@+id/tv_last_object"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No detections yet"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="4dp"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <!-- Last Detection Time -->
+    <TextView
+        android:id="@+id/tv_last_detection_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="11sp"
+        android:textColor="@android:color/white"
+        android:alpha="0.6"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="8dp">
+
+        <ImageButton
+            android:id="@+id/btn_camera"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Open Camera"
+            android:scaleType="centerInside"
+            android:tint="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/btn_history"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:src="@android:drawable/ic_menu_recent_history"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="View History"
+            android:scaleType="centerInside"
+            android:tint="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/btn_reminders"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:src="@android:drawable/ic_menu_my_calendar"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="View Reminders"
+            android:scaleType="centerInside"
+            android:tint="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/btn_refresh"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:src="@android:drawable/ic_popup_sync"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Refresh"
+            android:scaleType="centerInside"
+            android:tint="@android:color/white" />
+
+    </LinearLayout>
+
+    <!-- Active Reminders -->
+    <TextView
+        android:id="@+id/tv_active_reminders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 active reminders"
+        android:textSize="11sp"
+        android:textColor="@android:color/white"
+        android:alpha="0.6" />
+
+</LinearLayout>

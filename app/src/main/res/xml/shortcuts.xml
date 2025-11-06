@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Detect Now Shortcut -->
+    <shortcut
+        android:shortcutId="detect_now"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:shortcutShortLabel="@string/shortcut_detect"
+        android:shortcutLongLabel="@string/shortcut_detect_long"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.smartfind.app"
+            android:targetClass="com.smartfind.app.presentation.MainActivity">
+            <extra android:name="action" android:value="open_camera" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <!-- View History Shortcut -->
+    <shortcut
+        android:shortcutId="view_history"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:shortcutShortLabel="@string/shortcut_history"
+        android:shortcutLongLabel="@string/shortcut_history_long"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.smartfind.app"
+            android:targetClass="com.smartfind.app.presentation.MainActivity">
+            <extra android:name="action" android:value="open_history" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <!-- Search Shortcut -->
+    <shortcut
+        android:shortcutId="search"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_search"
+        android:shortcutShortLabel="@string/shortcut_search"
+        android:shortcutLongLabel="@string/shortcut_search_long"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.smartfind.app"
+            android:targetClass="com.smartfind.app.presentation.MainActivity">
+            <extra android:name="action" android:value="open_search" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <!-- Active Reminders Shortcut -->
+    <shortcut
+        android:shortcutId="reminders"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:shortcutShortLabel="@string/shortcut_reminders"
+        android:shortcutLongLabel="@string/shortcut_reminders_long"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.smartfind.app"
+            android:targetClass="com.smartfind.app.presentation.MainActivity">
+            <extra android:name="action" android:value="open_reminders" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>

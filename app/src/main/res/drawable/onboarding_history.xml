@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.2"
+        android:pathData="M100,100m-80,0a80,80 0,1,1 160,0a80,80 0,1,1 -160,0" />
+
+    <!-- Document/List Background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,40 L140,40 Q145,40 145,45 L145,155 Q145,160 140,160 L60,160 Q55,160 55,155 L55,45 Q55,40 60,40 Z" />
+
+    <!-- Search Bar at Top -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:fillAlpha="0.2"
+        android:pathData="M65,50 L135,50 Q137,50 137,52 L137,58 Q137,60 135,60 L65,60 Q63,60 63,58 L63,52 Q63,50 65,50 Z" />
+
+    <!-- Search Icon -->
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="2"
+       
+        android:pathData="M70,55 m-3,0 a3,3 0,1,1 6,0 a3,3 0,1,1 -6,0" />
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="2"
+        android:pathData="M73,57 L75,59" />
+
+    <!-- History Item 1 -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:fillAlpha="0.15"
+        android:pathData="M65,70 L135,70 L135,90 L65,90 Z" />
+
+    <!-- Item 1 - Clock Icon -->
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="1.5"
+       
+        android:pathData="M73,80 m-5,0 a5,5 0,1,1 10,0 a5,5 0,1,1 -10,0" />
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="1.5"
+        android:pathData="M73,80 L73,77 L75,77" />
+
+    <!-- Item 1 - Text Lines -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M85,76 L125,76 L125,78 L85,78 Z" />
+    <path
+        android:fillColor="#FF6B6B"
+        android:fillAlpha="0.5"
+        android:pathData="M85,82 L110,82 L110,84 L85,84 Z" />
+
+    <!-- History Item 2 -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:fillAlpha="0.15"
+        android:pathData="M65,95 L135,95 L135,115 L65,115 Z" />
+
+    <!-- Item 2 - Clock Icon -->
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="1.5"
+       
+        android:pathData="M73,105 m-5,0 a5,5 0,1,1 10,0 a5,5 0,1,1 -10,0" />
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="1.5"
+        android:pathData="M73,105 L73,102 L75,105" />
+
+    <!-- Item 2 - Text Lines -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M85,101 L125,101 L125,103 L85,103 Z" />
+    <path
+        android:fillColor="#FF6B6B"
+        android:fillAlpha="0.5"
+        android:pathData="M85,107 L115,107 L115,109 L85,109 Z" />
+
+    <!-- History Item 3 -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:fillAlpha="0.15"
+        android:pathData="M65,120 L135,120 L135,140 L65,140 Z" />
+
+    <!-- Item 3 - Clock Icon -->
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="1.5"
+       
+        android:pathData="M73,130 m-5,0 a5,5 0,1,1 10,0 a5,5 0,1,1 -10,0" />
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="1.5"
+        android:pathData="M73,130 L73,127 L76,130" />
+
+    <!-- Item 3 - Text Lines -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M85,126 L125,126 L125,128 L85,128 Z" />
+    <path
+        android:fillColor="#FF6B6B"
+        android:fillAlpha="0.5"
+        android:pathData="M85,132 L118,132 L118,134 L85,134 Z" />
+
+    <!-- Location Pin 1 -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M128,78 m-0,-3 l2,5 l-2,2 l-2,-2 l2,-5 m0,0 a1.5,1.5 0,1,1 0,3 a1.5,1.5 0,1,1 0,-3" />
+
+    <!-- Location Pin 2 -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M128,103 m-0,-3 l2,5 l-2,2 l-2,-2 l2,-5 m0,0 a1.5,1.5 0,1,1 0,3 a1.5,1.5 0,1,1 0,-3" />
+
+    <!-- Location Pin 3 -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M128,128 m-0,-3 l2,5 l-2,2 l-2,-2 l2,-5 m0,0 a1.5,1.5 0,1,1 0,3 a1.5,1.5 0,1,1 0,-3" />
+
+    <!-- Timeline Line -->
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.3"
+       
+        android:pathData="M73,90 L73,120" />
+
+    <!-- Floating Search Magnifier -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M160,35 m-12,0 a12,12 0,1,1 24,0 a12,12 0,1,1 -24,0" />
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="2.5"
+       
+        android:pathData="M160,35 m-8,0 a8,8 0,1,1 16,0 a8,8 0,1,1 -16,0" />
+    <path
+        android:strokeColor="#FF6B6B"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M166,41 L172,47" />
+
+    <!-- Calendar/Date Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,120 L45,120 L45,145 L25,145 Z" />
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M25,120 L45,120 L45,127 L25,127 Z" />
+    <path
+        android:fillColor="#FF6B6B"
+        android:fillAlpha="0.5"
+        android:pathData="M28,130 L32,130 L32,134 L28,134 Z" />
+    <path
+        android:fillColor="#FF6B6B"
+        android:fillAlpha="0.5"
+        android:pathData="M34,130 L38,130 L38,134 L34,134 Z" />
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M28,136 L32,136 L32,140 L28,140 Z" />
+
+    <!-- Filter Icon -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M165,150 L175,140 M175,150 L165,140" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M167,145 L173,145 L173,155 Q173,157 171,157 L169,157 Q167,157 167,155 Z" />
+
+    <!-- Arrow indicating scroll/more items -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:fillAlpha="0.4"
+        android:pathData="M95,148 L100,153 L105,148 L102,148 L102,145 L98,145 L98,148 Z" />
+</vector>
